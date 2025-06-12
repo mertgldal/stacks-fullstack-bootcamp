@@ -1,0 +1,32 @@
+{
+  "node_modules\\@stacks\\connect-ui\\dist\\esm\\index-cf9cc42e.js -> ./connect-modal.entry.js": {
+    "id": "node_modules\\@stacks\\connect-ui\\dist\\esm\\index-cf9cc42e.js -> ./connect-modal.entry.js",
+    "files": [
+      "static/chunks/_pages-dir-browser_node_modules_stacks_connect-ui_dist_esm_connect-modal_entry_js.js"
+    ]
+  },
+  "node_modules\\@stacks\\connect-ui\\dist\\esm\\polyfills\\index.js -> ./core-js.js": {
+    "id": "node_modules\\@stacks\\connect-ui\\dist\\esm\\polyfills\\index.js -> ./core-js.js",
+    "files": [
+      "static/chunks/polyfills-core-js.js"
+    ]
+  },
+  "node_modules\\@stacks\\connect-ui\\dist\\esm\\polyfills\\index.js -> ./dom.js": {
+    "id": "node_modules\\@stacks\\connect-ui\\dist\\esm\\polyfills\\index.js -> ./dom.js",
+    "files": [
+      "static/chunks/polyfills-dom.js"
+    ]
+  },
+  "node_modules\\next\\dist\\client\\index.js -> ../pages/_app": {
+    "id": "node_modules\\next\\dist\\client\\index.js -> ../pages/_app",
+    "files": [
+      "static/chunks/_pages-dir-browser_node_modules_next_dist_pages__app_js.js"
+    ]
+  },
+  "node_modules\\next\\dist\\client\\index.js -> ../pages/_error": {
+    "id": "node_modules\\next\\dist\\client\\index.js -> ../pages/_error",
+    "files": [
+      "static/chunks/_pages-dir-browser_node_modules_next_dist_pages__error_js.js"
+    ]
+  }
+}

@@ -1,5 +1,6 @@
+import 'regenerator-runtime/runtime';
 import '../styles/globals.css';
-import { AppProps } from 'next/app';
+import type { AppProps } from 'next/app';
 
 function MyApp({ Component, pageProps }: AppProps) {
   return <Component {...pageProps} />;

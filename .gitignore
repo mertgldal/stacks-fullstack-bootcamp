@@ -1,0 +1,77 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# Dependencies
+/frontend/node_modules
+/node_modules
+/.pnp
+.pnp.js
+
+# Testing
+/coverage
+
+# Next.js
+/.next/
+/out/
+
+# Production
+/build
+
+# TypeScript
+*.tsbuildinfo
+next-env.d.ts
+
+# Misc
+.DS_Store
+*.pem
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Environment Variables
+.env
+.env*.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# IDEs and editors
+/.idea
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Stacks/Hiro specific (if any, e.g., local wallet files - adjust as needed)
+# .hiro-wallet-local-storage # Example, if such files are created locally
+
+# Secrets (ensure your actual private keys or sensitive data are not committed)
+# Add any specific secret files or patterns here if they are not covered by .env
+# e.g., my_secret_key.txt
+
+# Scripts output (if any)
+# /scripts/output/ # Example if your deploy scripts generate local output
+
+# Frontend specific build artifacts (if any beyond .next and out)
+# /frontend/dist # Example if you had a different build process
+
+# Cache files
+.npm
+.yarn-cache
+.eslintcache
+.stylelintcache
+.prettiercache
+
+# Debug files
+*.pid
+*.seed
+*.pid.lock
