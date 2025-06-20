@@ -10,7 +10,7 @@ plan:
       transactions:
         - contract-publish:
             contract-name: main
-            expected-sender: ST1JDPR7JTGGBZ9NTHAAXPT1508YG73ZKF72M2395
+            expected-sender: ST1E8Z6BBR8D3WVMQ0JPCWXMEFCJW4NMYQMNBS20Y
             cost: 1872
             path: contracts/main.clar
             anchor-block-only: true
