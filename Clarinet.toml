@@ -1,0 +1,20 @@
+[project]
+name = "stacks-fullstack-bootcamp"
+authors = []
+description = ""
+telemetry = true
+requirements = []
+
+[contracts.main]
+path = "contracts/main.clar"
+clarity_version = 2
+epoch = 2.4
+
+[repl]
+clarity_wasm_runtime = "next"
+
+[repl.analysis]
+passes = ["check_checker"]
+
+[repl.clarity_repl]
+show_timings = true
